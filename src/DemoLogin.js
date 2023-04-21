@@ -6,7 +6,7 @@ export function DemoLogin() {
   //Hooks and States
 
   const history = useHistory();
-  const email = "sanjayprashanth1997@gmail.com";
+  const email = "webscrapping@gmail.com";
   const password = "Password@123";
   const [mes, setMes] = useState("");
   const [err, setErr] = useState("");
@@ -71,7 +71,7 @@ export function DemoLogin() {
         <p className="forgot-password text-right">
           Forgot{" "}
           <a
-            href="https://praveen-43-web-scrapping-backend.onrender.com/forget-password"
+            href="https://praveen-43-web-scrapping-backend.onrender.com"
             target="_blank"
             rel="noreferrer"
           >

@@ -13,7 +13,7 @@ export function DashPage() {
   useEffect(() => {
     const getUser = async () => {
       try {
-        const response = await fetch("https://praveen-43-web-scrapping-backend.onrender.com", {
+        const response = await fetch("https://praveen-43-web-scrapping-backend.onrender.com/dash/", {
           method: "GET",
           headers: {
             "x-auth-token": localStorage.getItem("token"),
